@@ -18,7 +18,7 @@ ETL Data, EDA Data, Data Analysis, Data Visualization (using Python)
 
 # Key Features
 + **Data preparation**: Identify the necessary information fields for the analysis process, while also converting and formatting the time data type. Specifically, filter out the data on successful transactions when customers use the application.
-+ **Transform data**: Calculate the necessary customer metrics, average number of transactions, customer retention rate, and service churn rate, etc.
++ **Transform data**: Calculate the necessary customer metrics, average number of transactions, customer retention rate and service churn rate, etc.
 + **Data analysis**: Apply the RFM method to classify customers and use Cohort and Churn analysis to better understand customer behavior and the application’s performance.
 + **Data visualization**: Use two visualization libraries, Matplotlib and Seaborn, in Python to represent and extract useful information from the data.
 
