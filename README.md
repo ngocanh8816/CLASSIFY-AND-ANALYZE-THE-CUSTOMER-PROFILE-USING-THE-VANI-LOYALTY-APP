@@ -2,7 +2,6 @@
 Classify customers based on the entire application using RFM, Cohort Analysis and Churn Analysis techniques. From there, create a detailed customer profile to help the Marketing department implement appropriate promotional programs.
 
 # Overviews
-
 The analysis project covers the following areas:
 
 + **Data collection**: Use internal datasets aggregated from recording and responding to user activities within the application.
@@ -15,11 +14,9 @@ The analysis project covers the following areas:
 + **Propose solutions**: Identify and propose some solutions to improve the operations of the marketing department at the company
 
 # Applied Skills
-
 ETL Data, EDA Data, Data Analysis, Data Visualization (using Python)
 
 # Key Features
-
 + **Data preparation**: Identify the necessary information fields for the analysis process, while also converting and formatting the time data type. Specifically, filter out the data on successful transactions when customers use the application.
 + **Transform data**: Calculate the necessary customer metrics, average number of transactions, customer retention rate, and service churn rate, etc.
 + **Data analysis**: Apply the RFM method to classify customers and use Cohort and Churn analysis to better understand customer behavior and the application’s performance.
@@ -57,7 +54,6 @@ Additionally, combine this with the results from RFM analysis to better illustra
 
 + To continue retaining and leveraging this customer segment, the company’s marketing department should implement reminder messages or special offers to encourage customers to increase their service usage frequency.
 # Example Code
-
 ```
 # Import thư viện
 import pandas as pd
@@ -88,7 +84,6 @@ result = pd.merge(trans,demen_trans,on=['org_membership_transaction_no','user_id
 final_result = result[result['cancel_count_y'] <= 1]
 ```
 # Project Structure
-
 The project includes the following main components:
 
 + `README.md`: This file provides information and an overview of the analysis.
